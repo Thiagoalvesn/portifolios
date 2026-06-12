@@ -10,7 +10,7 @@ body{
 nav {
     margin: 15px;
    display: flex;
-   justify-content: space-around;
+   justify-content:space-between;
    align-items: center;
    width: 60dvw;
    height: 7dvh;
@@ -20,6 +20,8 @@ nav {
     border-radius: 20px;
   position: absolute;
   left:20%;
+  background-attachment: fixed;
+  gap: 15px;
 }
 
     
@@ -34,11 +36,21 @@ nav {
 }
 .two{
     position: absolute;
-    left: 14%;
-    color: white;
-    font-size: 20px;
+    left: 10%;
+    color: rgb(85, 5, 5);
+    font-size: 18px;
 }
-
+#home{
+ 
+    background-color: rgba(255, 255, 255, 0.041);
+    width: 80dvw;
+    height: 52dvh;
+    position: absolute;
+    top: 10%;
+}
+.mim{
+    color: white;
+}
    
 
     
